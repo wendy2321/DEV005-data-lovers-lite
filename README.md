@@ -250,7 +250,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando [GitHub Pages](https://pages.github.com/).
-* Tiempo para completarlo: Toma como referencia 4 semanas.
+* El rango de tiempo estimado para completar el proyecto es de 3 Sprints.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
@@ -369,7 +369,6 @@ como toda la configuración de dependencias:
 |  ├── data (según con qué data trabajes)
 |  |  ├── pokemon
 |  |  |  ├── pokemon.js
-|  |  |  ├── pokemon.json
 |  |  |  └── README.md
 |  ├── data.js
 |  ├── index.html
@@ -433,10 +432,6 @@ a obtener, procesar y manipular datos (tus funciones). Por ejemplo:
   la data se quiere ordenar.
   El tercer parámetro, `sortOrder`, indica si se quiere ordenar de manera
   ascendente o descendente.
-
-* `computeStats(data)`: la función `compute` o calcular, nos permitirá hacer
-  cálculos estadísticos básicos para ser mostrados de acuerdo a la data
-  proporcionada.
 
 Estos nombres de funciones y de parámetros son solamente referenciales, lo que
 decidas depende de tu propia implementación.
