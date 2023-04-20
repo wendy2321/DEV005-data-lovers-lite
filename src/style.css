@@ -1,0 +1,110 @@
+
+body {
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/813/131/non_2x/light-blue-green-background-with-colorful-stars-vector.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+header{
+    padding: 0%;
+}
+h1{
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+    text-shadow: -1px -1px 1px #aaa,
+             0px 4px 1px rgba(71, 69, 69, 0.5),
+             4px 4px 5px rgba(142, 140, 140, 0.7),
+             0px 0px 7px rgba(0,0,0,0.4);
+}
+span{
+    margin: 2px;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid rgb(6, 10, 54);
+    border-radius: 5px;
+    background:rgb(21, 23, 95);
+}
+select{
+    text-transform: capitalize;
+    font-family: 'Staatliches', cursive;
+    border-radius: 5px;
+    margin: 0px 100px 0px 5px;
+
+}
+#root>div  {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 30px;
+    top:-50px
+
+}
+img{
+    transition: all 400ms;
+    
+}
+
+article{
+    border: 2px solid rgb(7, 13, 36);
+    border-radius: 10px;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+    position: relative;
+    left: 20px;
+    background:rgb(255, 255, 255);
+    background-size: 100% 100%;
+    transition: all 400ms;
+
+}
+article:hover{
+    
+    background: rgb(188, 205, 229);
+
+}
+article:hover img{
+    transform: translateY(-50px);
+}
+article:hover h2{
+    transform: translateY(-50px);
+}
+h2 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(1, 2, 40);
+    color: blanchedalmond;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    transition: all 400ms;
+}
+h3{
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 15px;
+   
+}
+#tipoPokemon{
+    font-family:'Staatliches', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #151849;
+}
+#ordenaPokemon{
+    font-family:'Staatliches', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    color: #151849;
+}
